@@ -69,7 +69,7 @@ class SearchAndEmphasize
     private function termWasLocated()
     {
         $pos = $this->getInitPositionTerm($this->_term);
-        if ($pos >= 0) {
+        if ($pos > 0) {
             return true;
         }
         return false;
